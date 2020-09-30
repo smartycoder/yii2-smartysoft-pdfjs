@@ -40,6 +40,7 @@ class Module extends \yii\base\Module
           'presentationMode' => true,
           'openFile' => true,
           'print' => true,
+          'find' => false,
           'download' => true,
           'viewBookmark' => true,
           'secondaryToolbarToggle'=> true
