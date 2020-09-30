@@ -43,6 +43,7 @@ $this->registerJs($js);
    </div>  <!-- sidebarContainer -->
 
    <div id="mainContainer">
+     <!-- 
      <div class="findbar hidden doorHanger hiddenSmallView" id="findbar">
        <label for="findInput" class="toolbarLabel" data-l10n-id="find_label">Find:</label>
        <input id="findInput" class="toolbarField" tabindex="91">
@@ -61,7 +62,9 @@ $this->registerJs($js);
        <label for="findMatchCase" class="toolbarLabel" data-l10n-id="find_match_case_label">Match case</label>
        <span id="findResultsCount" class="toolbarLabel hidden"></span>
        <span id="findMsg" class="toolbarLabel"></span>
-     </div>  <!-- findbar -->
+     </div>  
+     -->
+     <!-- findbar -->
 
      <div id="secondaryToolbar" class="secondaryToolbar hidden doorHangerRight">
        <div id="secondaryToolbarButtonContainer">
@@ -125,9 +128,9 @@ $this->registerJs($js);
                <span data-l10n-id="toggle_sidebar_label">Toggle Sidebar</span>
              </button>
              <div class="toolbarButtonSpacer"></div>
-             <button id="viewFind" class="toolbarButton group hiddenSmallView" title="Find in Document" tabindex="12" data-l10n-id="findbar">
+             <!-- <button id="viewFind" class="toolbarButton group hiddenSmallView" title="Find in Document" tabindex="12" data-l10n-id="findbar">
                 <span data-l10n-id="findbar_label">Find</span>
-             </button>
+             </button> -->
              <div class="splitToolbarButton">
                <button class="toolbarButton pageUp" title="Previous Page" id="previous" tabindex="13" data-l10n-id="previous">
                  <span data-l10n-id="previous_label">Previous</span>
