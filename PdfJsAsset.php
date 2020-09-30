@@ -15,7 +15,7 @@ class PdfJsAsset extends AssetBundle
 
     public $js = [
         'web/compatibility.js',
-        'web/l10n.js',
+//        'web/l10n.js',
         'build/pdf.js',
         'web/debugger.js',
         'web/viewer.js'
