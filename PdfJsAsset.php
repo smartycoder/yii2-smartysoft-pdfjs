@@ -17,6 +17,7 @@ class PdfJsAsset extends AssetBundle
         'web/compatibility.js',
 //        'web/l10n.js',
         'build/pdf.js',
+        'build/pdf.worker.js',
         'web/debugger.js',
         'web/viewer.js'
     ];

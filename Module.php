@@ -37,13 +37,12 @@ class Module extends \yii\base\Module
 
 
         $this->buttons = array_merge([
-          'presentationMode' => true,
+          'presentationMode' => false,
           'openFile' => true,
-          'print' => true,
-          'find' => false,
+          'print' => false,
           'download' => true,
           'viewBookmark' => true,
-          'secondaryToolbarToggle'=> true
+          'secondaryToolbarToggle'=> false
         ], $this->buttons);
 
         // custom initialization code goes here
