@@ -2294,10 +2294,10 @@ function webViewerInitialized() {
     appConfig.secondaryToolbar.printButton.classList.add("hidden");
   }
 
-  if (!PDFViewerApplication.supportsFullscreen) {
-    appConfig.toolbar.presentationModeButton.classList.add("hidden");
-    appConfig.secondaryToolbar.presentationModeButton.classList.add("hidden");
-  }
+  // if (!PDFViewerApplication.supportsFullscreen) {
+  //   appConfig.toolbar.presentationModeButton.classList.add("hidden");
+  //   appConfig.secondaryToolbar.presentationModeButton.classList.add("hidden");
+  // }
 
   if (PDFViewerApplication.supportsIntegratedFind) {
     appConfig.toolbar.viewFind.classList.add("hidden");
